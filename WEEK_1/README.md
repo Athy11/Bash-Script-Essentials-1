@@ -11,7 +11,8 @@ A shell is a program that commands the operating system to perform actions. You 
 In Unix and Linux, everything is a file. That means you can use the same commands without worrying about whether the I/O stream, and the input and output comes from a keyboard, a disk file, a socket, a pipe, or another I/O abstraction.
 
 ### These commands help you check details about your system, such as OS type, user information, and available resources.
-| Command   | Description                          |
+| Command | Description |
+| ----------- | ----------- |
 | uname  -a | Displays system information.         |
 | whoami    | Shows the current user.              |
 | date      | Displays the current date and time.  |
@@ -20,27 +21,31 @@ In Unix and Linux, everything is a file. That means you can use the same command
 
 ### File and Directory Management
 These commands help you create, navigate, copy, move, and delete files and folders.
-| Command           | Description                           |
+| Command | Description |
+| ----------- | ----------- |
 | ls                | Lists files in the current directory. |
 | pwd               | Prints the current working directory. |
 | cd directory_name | Changes to a different directory.     |
 
 ### Process and Task Management
 These commands allow you to monitor running programs and stop unresponsive processes.
-| Command         | Description               |
+| Command | Description |
+| ----------- | ----------- |
 | ps              | Lists running processes.  |
 | kill process_id | Kills a specific process. |
 
 ### User and Permissions Management
 These commands allow you to modify file permissions and ownership.
-| Command                    | Description                                                |
+| Command | Description |
+| ----------- | ----------- |
 | chmod u+x file_name        | Changes file permissions (read, write, execute) for users. |
 | chown user:group file_name | Changes file ownership to a specific user or group.        |
 
 
 ### System Utility Commands
 These commands are used in the terminal or command-line interface (CLI) to help manage and control the operating system environment.
-| Command  | Description                                                |
+| Command | Description |
+| ----------- | ----------- |
 | clear    | Clears the terminal screen, removing all previous output.  |
 | exit     | Closes the terminal session or logs out of a shell.        |
 | echo     | Prints a message or variable to the terminal.              |
