@@ -11,6 +11,25 @@ org=”CNCP!”
 echo $msg1 $org
 Output: Welcome to CNCP!
 ```
+## Integer in Bash 
+In Bash, even if all variables are treated as a string we can still perform arithmetic operations like addition (+), subtraction (-), multiplication (*), division (/), modulus (%), exponentiation (**), increment (++), and decrement (--). In performing these operations it must be enclosed with double parenthesis.
+
+```bash
+#!/bin/bash
+num1=10
+num2=5
+sum=$((num1 + num2))  
+echo "Sum: $sum"
+Output:Sum: 15
+```
+## Boolean in Bash
+In Bash, it does not have a built-in Boolean type, but it uses 0 for false and 1 for true. 
+Here are the Comparison Operators used for integer values inside if-statements.
+| Operator | Description |
+| ----------- | ----------- |
+| Header | Title |
+| -eq | Equal to (==) |
+| -ne | Not equal to (!=) |
 
 
 
