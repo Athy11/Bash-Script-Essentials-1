@@ -73,13 +73,83 @@ do
     echo "Countdown: $i"
 done
 ```
+
 #### FOR-IN LOOP
+This loop iterates over lists, filenames, or a predefined range (for item in list).
+```bash
+#Iterating Over a List of Words
+#!/bin/bash
+for item in Apple Banana Cherry; do
+    echo "Fruit: $item"
+done
+
+#Iterating Over a Range
+#!/bin/bash
+for i in {1..5}; do
+    echo "Number: $i"
+done
+
+#Iterating Over Files
+#!/bin/bash
+for file in *.txt; do
+    echo "Processing $file"
+done
+```
 
 ### WHILE LOOP
 The while loop executes a block of code as long as a specified condition is true.
+```bash
+#This is while loop with array 
+#!/bin/bash
+
+arr=("Apple" "Banana" "Cherry" "Date")
+i=0
+
+while [ $i -lt ${#arr[@]} ]
+do
+    echo "Fruit: ${arr[i]}"
+    ((i++))
+done
+
+------------
+#This is while loop with if-statement
+#!/bin/bash
+num=0
+
+while [ $num -lt 10 ]
+do
+    ((num++))
+
+    if [ $num -eq 5 ]; then
+        echo "Skipping number 5"
+        continue
+    fi
+
+    if [ $num -eq 8 ]; then
+        echo "Breaking the loop at 8"
+        break
+    fi
+
+    echo "Number: $num"
+done
+```
 
 ### UNTIL LOOP
 The until loop executes a block of code until a specified condition becomes true (opposite of while).
+```bash
+#This code checks if the password is the same as the declared value and hides the user input.
+#!/bin/bash
 
+correct_pass="CNCP"
+user_input=""
 
+until [ "$user_input" = "$correct_pass" ]; do
+    read -s -p "Enter password: " user_input
+    echo  # Move to a new line
+done
 
+echo "Access granted!"
+```
+## LET’S PRACTICE YOUR KNOWLEDGE
+Now that you know the Basic Control Flow in Bash, let's challenge your knowledge!
+Create a program where the user must guess a random number from 1 to 10 using until loop and if statement.
