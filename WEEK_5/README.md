@@ -34,3 +34,6 @@ With the use of **awk**, column extraction and processing is easy.
 | {print $1} | Print specific column(s) |
 | $2 > 20 | Filter rows based on condition |
 | NR==3 | Print only the 3rd row |
+
+## LET’S PRACTICE YOUR KNOWLEDGE
+
