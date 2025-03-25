@@ -30,3 +30,29 @@ grep "^C" students.csv
 OUTPUT:
 Charlie,22,A
 ```
+### SED
+**EXERCISE 1: Replace "Charlie" with "Charles"**
+```bash
+sed 's/Charlie/Charles/' students.csv
+
+OUTPUT:
+Alice,20,A
+Bob,21,B
+Charles,22,A
+David,19,C
+Eve,20,B
+```
+**EXERCISE 2: Delete students with grade "C"**
+```bash
+sed '/,C$/d' students.csv
+
+OUTPUT:
+Alice,20,A
+Bob,21,B
+Charlie,22,A
+Eve,20,B
+```
+### AWK
+```bash
+
+```
