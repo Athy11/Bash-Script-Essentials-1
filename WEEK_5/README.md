@@ -36,4 +36,12 @@ With the use of **awk**, column extraction and processing is easy.
 | NR==3 | Print only the 3rd row |
 
 ## LET’S PRACTICE YOUR KNOWLEDGE
+Now that you know how to handle different data processing and text manipulation, let's put your knowledge to test! 
 
+Using the same csv file in the EXERCISES.md file in the same folder, search for students who have either grade A or C. Good luck!
+```bash
+THE EXPECTED OUTPUT:
+Ana,20,A
+Charlie,22,A
+David,19,C
+```
