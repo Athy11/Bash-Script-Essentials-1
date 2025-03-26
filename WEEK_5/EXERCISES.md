@@ -36,7 +36,7 @@ Charlie,22,A
 sed 's/Charlie/Charles/' students.csv
 
 OUTPUT:
-Alice,20,A
+Ana,20,A
 Bob,21,B
 Charles,22,A
 David,19,C
@@ -47,12 +47,41 @@ Eve,20,B
 sed '/,C$/d' students.csv
 
 OUTPUT:
-Alice,20,A
+Ana,20,A
 Bob,21,B
 Charlie,22,A
 Eve,20,B
 ```
 ### AWK
+**EXERCISE 1: Extract only names from the file**
 ```bash
+awk -F ',' '{print $1}' students.csv
 
+OUTPUT:
+Ana
+Bob
+Charlie
+David
+Eve
+```
+
+**EXERCISE 2: Display students older than 20**
+```bash
+awk -F ',' '$2 > 20' students.csv
+
+OUTPUT:
+Bob,21,B
+Charlie,22,A
+```
+
+**EXERCISE 3: Show names and grades only**
+```bash
+awk -F ',' '{print $1, $3}' students.csv
+
+OUTPUT:
+Ana A
+Bob B
+Charlie A
+David C
+Eve B
 ```
