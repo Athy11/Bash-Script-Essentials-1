@@ -1,5 +1,7 @@
 # INTRODUCTION TO BASH SCRIPTING
-Here's a video tutorial for navigation and windows setup of Git Bash: 
+Here's a video tutorial for BASH history and windows setup of Git Bash: [History and Setup](https://pupedu-my.sharepoint.com/:v:/g/personal/cathyrendsacatani_iskolarngbayan_pup_edu_ph/EXP-AHyYR1JHhBmOxWWicykBlWG2YZJwpQtULrlBT-NOVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jCaZ7c)
+
+Here's a video tutorial of BASH basic commands and navigation: [Basic Navigation](https://pupedumy.sharepoint.com/:v:/g/personal/cathyrendsacatani_iskolarngbayan_pup_edu_ph/ET1V9Q_anNdLkaorErdV8zIBPKQ4acpAs_3RGaGjXhnp0Q?e=AoNAWw)
 
 ## WHAT IS BASH?
 The name is short for "Bourne Again Shell." It is also a command-line interpreter (shell) for Unix-based operating systems, including Linux and macOS. Bash allows users to interact with the operating system by executing commands, automating tasks using scripts, and managing processes. Moreover, it is an improved version of the original Bourne Shell (sh), developed by GNU.
